@@ -517,10 +517,10 @@ function combo_obj_to_range(co) {
   rs = rs.slice(0, -1);
   return rs;
 }
-const range =
-  "kk+, 2h7d, t8o, k8o-kto, ats-aqs, 55-33, kjs, q8S+, 22-44, 88, ato+, 5H4H, 7H7c, 7c7h";
-const [all_combos, all_bad_combos] = range_parse(range);
-const co = make_combo_obj(all_combos);
-const rs = combo_obj_to_range(co);
+// const range =
+//   "kk+, 2h7d, t8o, k8o-kto, ats-aqs, 55-33, kjs, q8S+, 22-44, 88, ato+, 5H4H, 7H7c, 7c7h";
+// const [all_combos, all_bad_combos] = range_parse(range);
+// const co = make_combo_obj(all_combos);
+// const rs = combo_obj_to_range(co);
 
-console.log("stop");
+module.exports = { range_parse };
